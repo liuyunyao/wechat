@@ -4,7 +4,7 @@
  */
 @Controller
 @RequestMapping(value = "/v1")
-public class WeChatController extends AbstractBaseController{
+public class WeChatController{
      
     @RequestMapping(value = "weixinCore",method = {RequestMethod.POST, RequestMethod.GET})
     @ResponseBody
