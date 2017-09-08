@@ -1,2 +1,1 @@
-# wechat
-java wechat ducument
+clone后，在controller中引入util中对应的包和方法即可开发微信公众号！
