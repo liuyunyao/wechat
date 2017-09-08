@@ -41,7 +41,7 @@ public class WXCommonUtil {
     //
     // 验证服务器接口
     public static void Validate(HttpServletRequest request, HttpServletResponse response) {
-        String TOKEN = "nidfit";
+        String TOKEN = "   ";// 自行填写  与微信端一致就行
         try {
             // 开发者提交信息后，微信服务器将发送GET请求到填写的服务器地址URL上，GET请求携带参数
             String signature = request.getParameter("signature");// 微信加密签名（token、timestamp、nonce。）
